@@ -5,8 +5,8 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-    register-with-eureka: false  #自身为注册中心，自身不注册到服务中心
+    register-with-eureka: false #鑷韩涓烘敞鍐屼腑蹇冿紝鑷韩涓嶆敞鍐屽埌鏈嶅姟涓績
   server:
-    enable-self-preservation: false  #  开发环境关闭自我保护模式做服务时不会报错，生成环境必需打开
+    enable-self-preservation: false #  寮�鍙戠幆澧冨叧闂嚜鎴戜繚鎶ゆā寮忓仛鏈嶅姟鏃朵笉浼氭姤閿欙紝鐢熸垚鐜蹇呴渶鎵撳紑
 server:
   port: 8761
